@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---NAV-DESIGN*---*/
+header{
+    width: 100%;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 18px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav .logo{
+    color: #fff;
+    width: 200px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contacts-links a{
+    color:#fff;
+    font-size:18px;
+    margin-right: 60px;
+    text-decoration: none;
+
+}
+/* ---HERO---*/
+
+.hero{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hero .hero-text{
+ display: flex;
+ justify-content: space-around;
+ padding: 0;
+ width: 100%;
+ margin-top: 50px;
+ 
+
+}
+
+.hero-text .hero-title{
+    font-size: 50px;
+}
+.hero-text .hero-paragraph{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.hero .hero-image{
+    height: 430px;
+    width: 75%;
+    margin-top: 30px;
+    
+}
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ---company-partners---*/
+.company-partners{
+    background-color: rgba(3, 3, 3, 0.962);
+    height: 150px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.company-partners .partners-logo img{
+ height: 100px;
+ width: 200px;
+ object-fit: cover;
+}
+/*---about-ussection*/
+.about-us{
+    background-color: black;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.about-us-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    width: 90%;
+    gap: 50px;
+    margin-top:150px;
+}
+.about-us-text-section{
+    color: #fff;
+    height: 360px;
+    width: 40%;
+
+}
+.about-us-text-section .about-us-text-section-title{
+    font-size:25px;
+   
+}
+
+.about-us-text-section .about-us-text-section-paragraph{
+    margin-top: 40px;
+    width: 80%;
+}
+.about-us-button{
+    margin-top: 30px;
+    padding: 12px;
+    background-color: #fff;
+    border: none;
+}
+
+.about-us-image-section img{
+    width: 400px;
+    height: 370px;
+    object-fit: cover;
+}
+/*---WHY TO CHOOSE US---*/
+.why-to-choose-us{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 500px;
+    gap: 30px;
+    background-color: black;
+}
+
+.why-to-choose-us-image {
+    width: 400px;
+    height: 370px;
+    
+}
+.why-to-choose-us-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.why-to-choose-us-text{
+    height: 370px;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+.why-to-choose-us-text .text-container{
+    
+    height: 85%;
+}
+
+.why-to-choose-us-text .text-title{
+    display: flex;
+    justify-content: center;
+    
+    font-size: 25px;
+    width: 50%;
+    color: white;
+}
+ .paragraphs-container{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    color: white;
+    margin-top: 25px;
+}
+
+.paragraphs-container .paragraph-layout1{
+    display: flex;
+     
+    
+}
+
+.paragraphs-container .paragraph-layout2{
+    display: flex;
+    
+    
+}
+
+.paragraph-layout{
+   
+    width: 47%;
+    height: 120px;
+}
+
+.paragraph-layout h2 {
+  font-size: 23px;
+}
+
+.paragraph-layout p {
+margin-top: 15px;
+}
+
+
+
+
+/*----LAYOUT SECTION---*/
+.company-project-layout-section{
+    height: 700px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.company-project-layout-top-text{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 40px;
+    color: #fff;
+}
+.company-project-layout-top-text  .company-project-layout-title{
+    font-size: 35px;
+}
+.company-project-layout-top-text a{
+    color: #fff;
+    text-decoration: none;
+}
+ .company-project-layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+ }
+ 
+ 
+ .image-layout-1{
+    height: 410px;
+    width: 400px;
+    
+} 
+.image-layout-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.image-layout-2{
+    height: 410px;
+    width: 400px;
+    
+   
+ }
+ .image-layout-2 .layout-1  {
+    height: 50%;
+    width: 100%;
+    object-fit:cover;
+    
+}
+
+
+.image-layout-2 .layout-2 {
+    height: 50%;
+    width: 100%;
+    object-fit:cover;
+   
+}
+.layout-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+   
+    
+}
+
+
+ .layout-2 img{
+    height: 96%;
+    width: 100%;
+    object-fit:cover;
+    margin-top: 10px;
+}
+.image-layout-3{
+    height: 410px;
+    width: 400px;
+    
+} 
+.image-layout-3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
